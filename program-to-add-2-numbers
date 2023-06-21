@@ -1,0 +1,9 @@
+#include <stdio.h> 
+int main() 
+{
+int x,y,z; //declaration of variables. int is data type , it tells us size , type of value and range of values
+   x=10;
+   y=20;
+   z=x+y;
+   printf("sum is %d",z); //%d is format specifier
+}

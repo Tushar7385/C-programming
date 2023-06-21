@@ -1,0 +1,14 @@
+//checking the size of different data types
+
+
+#include <stdio.h> 
+int main() 
+{
+  
+   printf("size of int is %ld bytes\n",sizeof(int)); //%d is format specifier
+   printf("size of char is %ld bytes\n",sizeof(char));
+   printf("size of float is %ld bytes\n",sizeof(float));
+   printf("size of double is %ld bytes\n",sizeof(double));
+   printf("size of long is %ld bytes\n",sizeof(long));
+   printf("size of short is %ld bytes\n",sizeof(short));
+}

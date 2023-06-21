@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+   int main()
+{
+    int x,y;
+    printf("Enter two Integers\n");
+    scanf("%d,%d",&x,&y);
+   /* if(x>y)
+       printf("first no. is greater");
+    else
+       printf("second no. is greater");
+    
+     if(x>=y)
+       printf("first no. is greater");
+    else
+       printf("second no. is greater");
+    
+    if(x<y)
+       printf("second no. is greater");
+    else
+       printf("first no. is greater"); 
+    
+    if(x<=y)
+       printf("second no. is greater");
+    else
+       printf("first no. is greater");
+    
+    if(x==y)
+       printf("both no.s are equal");
+    else
+       printf("numbers are not equal");
+    */
+    if(x!=y)
+       printf("numbers are different");
+    else
+       printf("numbers are equal");
+   
+    
+    
+}

@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{ 
+    int x,y,z;
+       printf("Enter three Integers");
+    scanf("%d,%d,%d",&x,&y,&z);
+    if((x>y)&&(x>z))
+       printf("first no. is greatest");
+    else if((y>x)&&(y>z))
+       printf("second no.s is greatest");
+    else if((z>x)&&(z>y))
+       printf("third no. is greatest");
+    else
+       printf("two or more no.s are equal");
+    
+}

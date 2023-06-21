@@ -1,0 +1,11 @@
+//post decrement and pre decrement
+#include<stdio.h>
+int main()
+{ int x;
+    x=3;
+    printf("x=%d\n",x);
+    printf("x=%d\n",x--); // this represents post decrement , the result shows a decrease in value after this numeral
+    printf("x=%d\n",x);
+    printf("x=%d\n",--x);// this represent pre decrement, the result shows a decrease in value in this numeral
+    printf("x=%d\n",x);
+}

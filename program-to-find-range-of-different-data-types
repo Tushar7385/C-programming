@@ -1,0 +1,13 @@
+//range of different data types
+
+#include <limits.h>
+#include <stdio.h> 
+int main() 
+{
+  
+   printf("range of int is from %d to %d\n",INT_MIN,INT_MAX);
+   printf("range of char is from %d to %d\n",SCHAR_MIN,SCHAR_MAX);
+   printf("range of short is from %d to %d\n",SHRT_MIN,SHRT_MAX);
+   printf("range of long is from %ld to %ld\n",LONG_MIN,LONG_MAX);
+   
+}

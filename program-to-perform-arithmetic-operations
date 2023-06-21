@@ -8,4 +8,5 @@ int x,y; //declaration of variables. int is data type , it tells us size , type 
    printf("difference is %d\n",x-y);
    printf("product is %d\n",x*y);
    printf("quotient is %d\n",x/y);
+   printf("remainder of %d and %d is %d",x,y,x%y);
 }

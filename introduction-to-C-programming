@@ -1,0 +1,7 @@
+  #include <stdio.h> // #include is preprocessor directive stdio is standard input output h is header file
+int main() // the compilation starts from here
+{
+    printf ("Hello\n"); // \n is used to change the line , \t is used for tab space
+    printf ("world");
+    return 0;
+}

@@ -1,0 +1,24 @@
+TYPES OF TRIANGLES
+#include<stdio.h>
+int main()
+{ int x,y,z;
+ printf("Enter the length of sides");
+ scanf("%d,%d,%d",&x,&y,&z);
+   if((x==y)&&(x==z))
+        printf("the given triangle is an equilateral triangle");
+   else if((x==y)||(x==z)||(y==z))
+        printf("the given triangle is an isosceles triangle");
+    else if((x!=y)&&(x!=z)&&(y!=z))
+        printf("the given triangle is a scalene triangle");
+}
+//post increment and pre increment
+#include<stdio.h>
+int main()
+{ int x;
+    x=3;
+    printf("x=%d\n",x);
+    printf("x=%d\n",x++);
+   // printf("x=%d\n",x);
+    printf("x=%d\n",++x);
+    printf("x=%d\n",x);
+}

@@ -1,0 +1,19 @@
+//pattern printing
+
+
+
+#include <stdio.h>
+
+char main()
+{
+    int r,c,s;
+    for(r='A';r<='C';r++)
+       { for(s='A';s<=r;s++)
+            printf("%c",s);
+        printf("\n");  
+    }
+        
+    
+        
+        
+}

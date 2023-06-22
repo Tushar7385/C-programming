@@ -1,0 +1,16 @@
+//take user input  and print whether vowel or consonant (using else if)
+#include <stdio.h>
+
+int main()
+{
+    char x;
+    printf("Enter an alphabet\n");
+    scanf("%c",&x);
+     if(x=='a'||x=='e'||x=='o'||x=='u'||x=='i')
+        printf("the alphabet given is a vowel");
+    else 
+        printf("the alphabet given is a consonant");
+        
+        
+    
+}

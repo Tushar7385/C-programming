@@ -1,0 +1,45 @@
+//take user input  and print which day it is
+#include <stdio.h>
+
+
+int main() 
+{   
+    int number;
+    printf("enter an integer");
+    scanf("%d",&number);
+    switch(number)
+    {
+        case 1:
+            printf("the day is sunday");
+            break;
+        case 2:
+            printf("the day is monday");
+            break;
+        case 3:
+            printf("the day is tuesday");
+            break;
+        case 4:
+            printf("the day is wednesday");
+            break;
+        case 5:
+            printf("the day is thursday");
+            break;
+        case 6:
+            printf("the day is friday");
+            break;
+        case 7:
+            printf("the day is saturday");
+            break;
+        default:
+            printf("invalid response");
+
+    
+        
+        
+        
+    }
+    
+    
+        
+    
+}

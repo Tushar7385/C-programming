@@ -1,0 +1,19 @@
+//finding greatest number using 2D arrays
+#include <stdio.h>
+
+int main()
+{
+    int A[3][3],i,r,c,max;
+    
+    for(r=0;r<=2;r++)
+        for(c=0;c<=2;c++)
+            scanf("%d",&A[r][c]);
+    max=A[0][0];        
+    for(r=0;r<=2;r++)
+        for(c=0;c<=2;c++)
+        if(A[r][c]>max)
+            max=A[r][c];
+        printf("%d is the greatest number",max); 
+    
+    
+}

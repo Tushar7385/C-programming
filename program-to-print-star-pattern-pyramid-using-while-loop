@@ -1,0 +1,17 @@
+    #include <stdio.h>
+    int main()
+    {
+        int r,c,s;
+        r=1;
+        
+        while(r<=3)
+       {    s=1;
+            while(s<=r)
+            {
+            printf("*");
+            s++;
+            }
+            printf("\n");
+            r++;
+        }
+    }

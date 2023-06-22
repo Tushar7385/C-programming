@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+int main()
+{
+    int x,y,opt;
+do{
+
+  printf("Menu\n");
+  printf("1. Add\n");
+  printf("2. Sub\n");
+  printf("3. Exit\n");
+  printf("Enter choice");
+  scanf("%d",&opt);
+  if(opt==1)
+   {     printf("Enter 2 integers");
+        scanf("%d,%d",&x,&y);
+        printf("%d",x+y);
+          
+    }
+      else if(opt==2)
+      {
+      printf("enter 2 integers");
+      scanf("%d,%d",&x,&y);
+      printf("%d",x-y);
+      }
+          
+      
+    else 
+    {
+        printf("thank you for using calculator");
+    }
+    
+    
+    
+    
+}while(opt<3);  
+}

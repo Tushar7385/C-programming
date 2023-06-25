@@ -1,0 +1,21 @@
+//function without arguments ,returning value
+
+#include <stdio.h>
+int sum();
+int main()
+ 
+  {  int avg;
+
+   avg= sum();
+        printf("%d ",avg);
+        printf("%d",sum());
+    }
+  int sum()
+    {
+            int a,b;
+    printf("enter two integers");
+    scanf("%d %d",&a,&b);
+     
+    
+    return (a+b);
+    }
